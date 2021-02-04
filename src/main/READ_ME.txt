@@ -3,7 +3,7 @@ package frc.robot;
 // --------------------------------------------------------------------------- //
 //   *** DIRECTIONS ***                                                        //
 //                                                                             //
-//   1. Do NOT make any changes to this file (READ_ME.txt)                     //
+//   1. Do NOT make any changes to the READ_ME.txt file                        //
 //                                                                             //
 //   2. Create a new file in the java\frc\robot folder, called MainRobot.java  //
 //                                                                             //
