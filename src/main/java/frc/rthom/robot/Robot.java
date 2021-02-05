@@ -2,7 +2,7 @@ package frc.rthom.robot;
 
 import java.lang.invoke.MethodHandles;
 
-public class RobotTemplate
+public class Robot
 {
     // *** STATIC INITIALIZATION BLOCK ****************************************
     // This block of code is run first when the class is loaded
@@ -15,7 +15,7 @@ public class RobotTemplate
 
     // *** CONSTRUCTOR ********************************************************
     // The constructor only runs one time when the class is instantiated
-    public RobotTemplate()
+    public Robot()
     {
         System.out.println("-> Starting Constructor  : " + this.getClass().getName());
         // Add your constructor code here
