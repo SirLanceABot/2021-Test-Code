@@ -1,6 +1,6 @@
 //////////// NAVX GYRO INPUT ////////////
 
-package frc.robot.subsystems;
+package frc.rthom.robot.subsystems;
 
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.SerialPort;

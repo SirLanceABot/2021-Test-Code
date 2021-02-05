@@ -1,4 +1,4 @@
-package frc.robot;
+package frc.rthom.robot;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -21,10 +21,10 @@ import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.RamseteCommand;
 import edu.wpi.first.wpilibj2.command.RunCommand;
 import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
-import frc.robot.Constants.AutoConstants;
-import frc.robot.Constants.DriveConstants;
-import frc.robot.Constants.OIConstants;
-import frc.robot.subsystems.SparkMaxSubsystem;
+import frc.rthom.robot.Constants.AutoConstants;
+import frc.rthom.robot.Constants.DriveConstants;
+import frc.rthom.robot.Constants.OIConstants;
+import frc.rthom.robot.subsystems.SparkMaxSubsystem;
 
 
 public class AutonomousTrajectories  extends SequentialCommandGroup {

@@ -1,4 +1,4 @@
-package frc.robot.subsystems;
+package frc.rthom.robot.subsystems;
 
 import edu.wpi.first.wpilibj.Timer;
 import com.revrobotics.CANSparkMax;
@@ -10,8 +10,8 @@ import com.revrobotics.CANDigitalInput.LimitSwitchPolarity;
 import com.revrobotics.CANSparkMax.IdleMode;
 import com.revrobotics.CANSparkMax.SoftLimitDirection;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-import frc.robot.Robot;
-import frc.robot.subsystems.MotorConstants;
+import frc.rthom.robot.Robot;
+import frc.rthom.robot.subsystems.MotorConstants;
 import edu.wpi.first.wpilibj.geometry.Pose2d;
 import edu.wpi.first.wpilibj.kinematics.DifferentialDriveOdometry;
 import edu.wpi.first.wpilibj.kinematics.DifferentialDriveWheelSpeeds;
