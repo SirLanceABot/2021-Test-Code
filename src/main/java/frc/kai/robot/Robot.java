@@ -4,6 +4,7 @@ import java.lang.invoke.MethodHandles;
 
 public class Robot
 {
+    private static final Teleop teleop = new Teleop();
     // *** STATIC INITIALIZATION BLOCK ****************************************
     // This block of code is run first when the class is loaded
     static
@@ -56,13 +57,13 @@ public class Robot
     // This method runs one time when the robot is "Enabled" in Teleop mode
     public void teleopInit()
     {
-
+        teleop.init();
     }
 
     // This method runs periodically (every 20ms) while "Enabled" in Teleop mode
     public void teleopPeriodic()
     {
-
+        teleop.periodic();
     }
 
 
